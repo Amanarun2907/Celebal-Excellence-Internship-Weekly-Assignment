@@ -1,0 +1,10 @@
+Best Tuned Model: Gradient Boosting
+Test R² Score: 0.9966
+
+Best Hyperparameters:
+  subsample: 0.9
+  n_estimators: 200
+  min_samples_split: 2
+  min_samples_leaf: 2
+  max_depth: 5
+  learning_rate: 0.05

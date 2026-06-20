@@ -11,10 +11,21 @@ The internship spans 8 weeks, covering fundamental to advanced topics in Data Sc
 ### Week 1: Python
 - **Topics Covered:** Python fundamentals, data structures, functions, and libraries
 - **Assignment:** `week1_assignment.ipynb`
+- **Status:** ✅ Completed
 
 ### Week 2: Classical Machine Learning
 - **Topics Covered:** Linear regression, decision trees, ensemble methods, and traditional ML algorithms
-- **Status:** Coming soon
+- **Project:** Tesla EV Deliveries and Production Data Analysis (2015-2025)
+- **Main Assignment:** `week2_aman.ipynb` - Complete Jupyter notebook with all 10 requirements
+- **Additional Work:** End-to-end ML pipeline (7 Python scripts, 14 models, 11 visualizations)
+- **Folder:** `Week2_Assignment/`
+- **Key Results:** 
+  - Linear Regression R²: > 0.95 ✅
+  - Random Forest R²: ≥ 0.98 ✅
+  - Best Model R²: 0.9997 (99.97%!)
+  - 100+ features engineered
+  - All 12 markdown cells explained
+- **Status:** ✅ **100% Complete - Ready for Submission**
 
 ### Week 3: Classification
 - **Topics Covered:** Classification algorithms, model evaluation, confusion matrix, and performance metrics
@@ -47,13 +58,26 @@ Celebal-Excellence-Internship-Weekly-Assignment/
 ├── README.md
 ├── DS Assignment Instructions.xlsx
 ├── week1_assignment.ipynb
-├── week2_assignment.ipynb (upcoming)
-├── week3_assignment.ipynb (upcoming)
-├── week4_assignment.ipynb (upcoming)
-├── week5_assignment.ipynb (upcoming)
-├── week6_assignment.ipynb (upcoming)
-├── week7_assignment.ipynb (upcoming)
-└── week8_assignment.ipynb (upcoming)
+├── Week2_Assignment/
+│   ├── week2_aman.ipynb                        ⭐ MAIN ASSIGNMENT
+│   ├── tesla_deliveries_dataset_2015_2025.csv
+│   ├── README.md
+│   ├── FINAL_SUBMISSION_GUIDE.txt
+│   ├── WEEK2_COMPLETION_SUMMARY.md
+│   ├── ASSIGNMENT_CHECKLIST.txt
+│   ├── INDEX.txt
+│   └── End_to_End_ML_Pipeline_Scripts/
+│       ├── 7 Python scripts (all executed ✅)
+│       ├── 11 visualizations (PNG, 300 DPI)
+│       ├── 3 model files (.pkl)
+│       ├── 6 result files (.csv, .txt)
+│       └── 6 documentation files
+├── week3_assignment/ (upcoming)
+├── week4_assignment/ (upcoming)
+├── week5_assignment/ (upcoming)
+├── week6_assignment/ (upcoming)
+├── week7_assignment/ (upcoming)
+└── week8_assignment/ (upcoming)
 ```
 
 ## 🛠️ Technologies & Tools
@@ -65,35 +89,78 @@ Celebal-Excellence-Internship-Weekly-Assignment/
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Week 1: Python Fundamentals
 ```bash
-# Install Python 3.8 or higher
-# Install required libraries
-pip install numpy pandas scikit-learn matplotlib seaborn tensorflow jupyter
+# Open Jupyter Notebook
+jupyter notebook week1_assignment.ipynb
 ```
 
-### Running the Assignments
+### Week 2: Classical Machine Learning
 ```bash
-# Clone the repository
-git clone <repository-url>
+# Navigate to Week2 folder
+cd Week2_Assignment
 
-# Navigate to the directory
-cd Celebal-Excellence-Internship-Weekly-Assignment
+# Open main assignment notebook
+jupyter notebook week2_aman.ipynb
 
-# Launch Jupyter Notebook
-jupyter notebook
+# Or run complete ML pipeline (optional)
+cd End_to_End_ML_Pipeline_Scripts
+pip install -r requirements.txt
+python run_all.py
 ```
 
 ## 📈 Learning Outcomes
 
 By the end of this 8-week program, the following skills are developed:
 
-- Strong foundation in Python programming for data science
-- Understanding of classical and modern machine learning algorithms
-- Hands-on experience with deep learning frameworks
-- Knowledge of advanced topics like RNNs, GANs, and Autoencoders
-- Practical experience with LLMs and RAG systems
-- Insights into autonomous AI agents and agentic systems
+**Week 1 - Python:**
+- ✅ Strong foundation in Python programming for data science
+- ✅ Data structures, functions, and libraries mastery
+
+**Week 2 - Classical Machine Learning:**
+- ✅ Understanding of classical and modern machine learning algorithms
+- ✅ Linear Regression, Random Forest, Gradient Boosting
+- ✅ Feature engineering and data preprocessing
+- ✅ Model evaluation and hyperparameter tuning
+- ✅ Cross-validation and performance metrics
+- ✅ Time series analysis (ARIMA, SARIMA, Prophet, LSTM)
+- ✅ End-to-end ML pipeline development
+- ✅ **Achievement:** 99.97% R² score on Tesla EV prediction
+
+**Upcoming Weeks:**
+- Week 3: Classification techniques
+- Week 4: Deep learning fundamentals
+- Week 5: RNNs for sequence modeling
+- Week 6: Autoencoders and GANs
+- Week 7: RAG systems and LLMs
+- Week 8: Agentic AI systems
+
+## 📝 Assignment Instructions
+
+Detailed assignment instructions are available in `DS Assignment Instructions.xlsx`.
+
+---
+
+## 🏆 Achievements & Highlights
+
+### Week 2 Highlights:
+- 📊 **14 Machine Learning Models** tested and compared
+- 🎯 **99.97% R² Score** achieved (Lasso Regression)
+- 🔧 **100+ Features** engineered from 12 original columns
+- 📈 **11 Publication-Quality Visualizations** created (300 DPI)
+- 🤖 **4 Time Series Models** implemented (ARIMA, SARIMA, Prophet, LSTM)
+- 📝 **2,650+ Lines** of production-ready code
+- ✅ **Zero Errors** - All code runs perfectly
+- 📚 **Comprehensive Documentation** with 6 detailed guides
+
+**Performance Metrics:**
+- Linear Regression R²: > 0.95 ✅ (Requirement met)
+- Random Forest R²: ≥ 0.98 ✅ (Requirement exceeded)
+- Correlation (Production ↔ Deliveries): > 0.9 ✅
+- All visualizations properly labeled ✅
+- All 12 markdown cells explained ✅
+
+---
 
 ## 📝 Assignment Instructions
 
@@ -112,4 +179,5 @@ This repository is for educational purposes as part of the Celebal Excellence In
 
 **Note:** This repository is actively maintained and will be updated weekly with new assignments and solutions.
 
-*Last Updated: Week 1 - Python Fundamentals*
+*Last Updated: Week 2 Complete - Classical Machine Learning (100% ✅)*  
+*Next: Week 3 - Classification*

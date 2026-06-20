@@ -1,0 +1,243 @@
+================================================================================
+             WEEK 2 ASSIGNMENT - EXECUTION INSTRUCTIONS
+             Tesla EV Deliveries and Production Analysis
+================================================================================
+
+Author: Aman
+Program: Celebal Excellence Internship - Data Science
+Week: 2 - Classical Machine Learning
+Date: June 17, 2026
+
+================================================================================
+QUICK START (3 STEPS)
+================================================================================
+
+STEP 1: INSTALL DEPENDENCIES
+-----------------------------
+Open Command Prompt or PowerShell in this folder and run:
+
+    pip install -r requirements.txt
+
+This will install all required Python packages.
+
+
+STEP 2: RUN THE PIPELINE
+-------------------------
+Execute the master script:
+
+    python run_all.py
+
+This will run all 7 scripts automatically in sequence.
+
+
+STEP 3: CHECK RESULTS
+----------------------
+After completion, check:
+- EVALUATION_REPORT.txt (detailed results)
+- *.png files (11 visualizations)
+- *.csv files (model comparisons)
+
+================================================================================
+ALTERNATIVE: RUN INDIVIDUAL SCRIPTS
+================================================================================
+
+If you prefer to run scripts one by one:
+
+1. python 1_data_preprocessing.py
+2. python 2_eda.py
+3. python 3_feature_engineering.py
+4. python 4_regression_modeling.py
+5. python 5_hyperparameter_tuning.py
+6. python 6_time_series_forecasting.py
+7. python 7_evaluation_report.py
+
+Note: Scripts must be run in this exact order!
+
+================================================================================
+EXPECTED EXECUTION TIME
+================================================================================
+
+Total Time: 15-30 minutes (depending on your system)
+
+Individual script times:
+- Script 1: ~1 minute
+- Script 2: ~2-3 minutes
+- Script 3: ~2 minutes
+- Script 4: ~3-5 minutes
+- Script 5: ~5-10 minutes (longest - hyperparameter tuning)
+- Script 6: ~3-5 minutes
+- Script 7: ~1 minute
+
+================================================================================
+SYSTEM REQUIREMENTS
+================================================================================
+
+- Python 3.8 or higher
+- Windows 10/11 (or compatible OS)
+- Minimum 4 GB RAM (8 GB recommended)
+- ~500 MB free disk space
+- Internet connection (for package installation only)
+
+================================================================================
+EXPECTED OUTPUTS
+================================================================================
+
+After successful execution, you will have:
+
+DATA FILES (2):
+- cleaned_data.csv
+- engineered_data.csv
+
+MODEL FILES (3):
+- best_regression_model.pkl
+- best_tuned_model.pkl
+- feature_scaler.pkl
+
+RESULT FILES (6):
+- model_comparison_results.csv
+- tuned_models_comparison.csv
+- forecast_models_comparison.csv
+- metrics_summary_table.csv
+- best_hyperparameters.txt
+- EVALUATION_REPORT.txt
+
+VISUALIZATIONS (11):
+- 1_univariate_analysis.png
+- 2_correlation_matrix.png
+- 3_bivariate_scatter_plots.png
+- 4_categorical_analysis.png
+- 5_temporal_analysis.png
+- 6_model_comparison.png
+- 7_best_model_predictions.png
+- 8_tuned_models_comparison.png
+- 9_time_series_forecasts.png
+- 10_combined_forecasts.png
+- 11_comprehensive_evaluation_report.png
+
+TOTAL: 24+ output files
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+ISSUE 1: Package Installation Errors
+-------------------------------------
+Solution:
+    pip install --upgrade pip
+    pip install -r requirements.txt
+
+ISSUE 2: Prophet Installation Failed (Windows)
+-----------------------------------------------
+Solution:
+    pip install pystan
+    pip install prophet
+
+ISSUE 3: TensorFlow Installation Issues
+----------------------------------------
+Solution:
+    pip install tensorflow==2.15.0
+
+ISSUE 4: Script Execution Error
+--------------------------------
+Solution:
+    - Ensure all scripts are in the same folder
+    - Run scripts in order (1 through 7)
+    - Check Python version: python --version
+
+ISSUE 5: Memory Error
+----------------------
+Solution:
+    - Close other applications
+    - Restart Python/terminal
+    - Run scripts individually instead of run_all.py
+
+================================================================================
+VERIFICATION CHECKLIST
+================================================================================
+
+After execution, verify:
+
+[√] All 7 scripts completed without errors
+[√] Console shows "PIPELINE COMPLETED SUCCESSFULLY!"
+[√] 24+ output files created
+[√] EVALUATION_REPORT.txt exists and contains results
+[√] All PNG files viewable
+[√] CSV files contain data
+
+================================================================================
+DOCUMENTATION FILES
+================================================================================
+
+For more information, check these files:
+
+1. README_WEEK2.md       - Complete project documentation
+2. QUICKSTART.md         - Quick start guide
+3. PROJECT_SUMMARY.md    - Project overview and highlights
+4. CHECKLIST.md          - Completion checklist
+5. HOW_TO_RUN.txt        - This file
+
+================================================================================
+CONTACT & SUPPORT
+================================================================================
+
+For questions or issues:
+1. Read the documentation files
+2. Check EVALUATION_REPORT.txt for insights
+3. Review individual script docstrings
+4. Contact instructor or mentor
+
+================================================================================
+SUCCESS INDICATORS
+================================================================================
+
+You'll know everything worked when you see:
+
+✓ "PIPELINE COMPLETED SUCCESSFULLY!" in console
+✓ Total execution time displayed
+✓ 11 PNG visualization files created
+✓ EVALUATION_REPORT.txt generated
+✓ No error messages in console
+✓ All expected output files present
+
+================================================================================
+NEXT STEPS AFTER COMPLETION
+================================================================================
+
+1. Review EVALUATION_REPORT.txt for results
+2. Examine visualizations (*.png files)
+3. Compare model performances in CSV files
+4. Read PROJECT_SUMMARY.md for insights
+5. Prepare for Week 3 assignment
+
+================================================================================
+IMPORTANT NOTES
+================================================================================
+
+- All scripts use random_state=42 for reproducibility
+- Models are saved and can be reused
+- Visualizations are 300 DPI publication quality
+- Pipeline can be re-run (overwrites previous outputs)
+- All code is well-documented with comments
+
+================================================================================
+FINAL CHECKLIST BEFORE RUNNING
+================================================================================
+
+[ ] Python 3.8+ installed
+[ ] pip package manager available
+[ ] Internet connection available
+[ ] Sufficient disk space (~500 MB)
+[ ] All files in correct folder
+[ ] requirements.txt file present
+[ ] Dataset file (tesla_deliveries_dataset_2015_2025.csv) present
+
+If all checked, you're ready to run!
+
+Command: python run_all.py
+
+================================================================================
+Good luck with your Week 2 assignment! 🚀
+================================================================================
+
+Last Updated: June 17, 2026
+Version: 1.0
