@@ -27,9 +27,19 @@ The internship spans 8 weeks, covering fundamental to advanced topics in Data Sc
   - All 12 markdown cells explained
 - **Status:** ✅ **100% Complete - Ready for Submission**
 
-### Week 3: Classification
-- **Topics Covered:** Classification algorithms, model evaluation, confusion matrix, and performance metrics
-- **Status:** Coming soon
+### Week 3: Classification and Clustering
+- **Topics Covered:** Classification algorithms, clustering techniques (K-Means, DBSCAN), unsupervised learning, and model evaluation
+- **Project:** Country Socio-Economic Data Clustering Analysis
+- **Main Assignment:** `week3_aman.ipynb` - Complete Jupyter notebook with all 10 requirements
+- **Dataset:** Country-data.csv (167 countries, 9 socio-economic indicators)
+- **Folder:** `Week_3_Assignment/`
+- **Key Results:**
+  - K-Means Clustering: 3 optimal clusters identified ✅
+  - Silhouette Score: 0.2833 ✅
+  - DBSCAN: 1 cluster + 30 noise points ✅
+  - PCA: 63.13% variance explained ✅
+  - All 19 markdown explanation cells ✅
+- **Status:** ✅ **100% Complete - Ready for Submission**
 
 ### Week 4: Introduction to Deep Learning
 - **Topics Covered:** Neural networks, backpropagation, activation functions, and optimization techniques
@@ -72,7 +82,12 @@ Celebal-Excellence-Internship-Weekly-Assignment/
 │       ├── 3 model files (.pkl)
 │       ├── 6 result files (.csv, .txt)
 │       └── 6 documentation files
-├── week3_assignment/ (upcoming)
+├── Week_3_Assignment/
+│   ├── week3_aman.ipynb                        ⭐ MAIN ASSIGNMENT
+│   ├── Country-data.csv
+│   ├── data-dictionary.csv
+│   ├── README.md
+│   └── NOTEBOOK_READY.txt
 ├── week4_assignment/ (upcoming)
 ├── week5_assignment/ (upcoming)
 ├── week6_assignment/ (upcoming)
@@ -109,6 +124,17 @@ pip install -r requirements.txt
 python run_all.py
 ```
 
+### Week 3: Classification and Clustering
+```bash
+# Navigate to Week3 folder
+cd Week_3_Assignment
+
+# Open main assignment notebook
+jupyter notebook week3_aman.ipynb
+
+# Run all cells to see clustering analysis
+```
+
 ## 📈 Learning Outcomes
 
 By the end of this 8-week program, the following skills are developed:
@@ -127,8 +153,17 @@ By the end of this 8-week program, the following skills are developed:
 - ✅ End-to-end ML pipeline development
 - ✅ **Achievement:** 99.97% R² score on Tesla EV prediction
 
+**Week 3 - Classification and Clustering:**
+- ✅ Unsupervised learning techniques mastered
+- ✅ K-Means clustering with optimal k selection
+- ✅ DBSCAN for density-based clustering
+- ✅ PCA for dimensionality reduction
+- ✅ Silhouette Score for cluster evaluation
+- ✅ Data cleaning and preprocessing pipeline
+- ✅ Feature scaling with StandardScaler
+- ✅ **Achievement:** Identified 3 distinct country clusters based on socio-economic indicators
+
 **Upcoming Weeks:**
-- Week 3: Classification techniques
 - Week 4: Deep learning fundamentals
 - Week 5: RNNs for sequence modeling
 - Week 6: Autoencoders and GANs
@@ -142,6 +177,24 @@ Detailed assignment instructions are available in `DS Assignment Instructions.xl
 ---
 
 ## 🏆 Achievements & Highlights
+
+### Week 3 Highlights:
+- 🎯 **3 Optimal Clusters** identified using Elbow Method
+- 📊 **2 Clustering Algorithms** implemented (K-Means, DBSCAN)
+- 🔍 **Silhouette Score: 0.2833** - cluster quality validated
+- 📈 **63.13% Variance Explained** with 2 principal components
+- 🌍 **167 Countries Analyzed** across 9 socio-economic indicators
+- 🎨 **2 Publication-Quality Visualizations** (Elbow plot, PCA scatter)
+- 📝 **19 Markdown Explanations** - every code cell documented
+- ✅ **Zero Errors** - All 35 cells execute perfectly
+- 🔧 **5 Key Observations** - High-mortality clusters, economic zones, development areas
+
+**Clustering Performance:**
+- K-Means with best_k=3 ✅ (Requirement met)
+- Silhouette Score logged ✅ (Requirement met)
+- Clear PCA 2D visualization ✅ (Requirement met)
+- Section 14 observations complete ✅ (5 comprehensive insights)
+- All data cleaning steps executed ✅
 
 ### Week 2 Highlights:
 - 📊 **14 Machine Learning Models** tested and compared
@@ -179,5 +232,22 @@ This repository is for educational purposes as part of the Celebal Excellence In
 
 **Note:** This repository is actively maintained and will be updated weekly with new assignments and solutions.
 
-*Last Updated: Week 2 Complete - Classical Machine Learning (100% ✅)*  
-*Next: Week 3 - Classification*
+*Last Updated: Week 3 Complete - Classification and Clustering (100% ✅)*  
+*Next: Week 4 - Introduction to Deep Learning*
+
+---
+
+## 📊 Progress Tracker
+
+| Week | Topic | Status | Completion Date |
+|------|-------|--------|----------------|
+| 1 | Python Fundamentals | ✅ Complete | - |
+| 2 | Classical Machine Learning | ✅ Complete | - |
+| 3 | Classification and Clustering | ✅ Complete | June 24, 2026 |
+| 4 | Introduction to Deep Learning | 🔄 Upcoming | - |
+| 5 | RNN (Recurrent Neural Networks) | 🔄 Upcoming | - |
+| 6 | AE and GAN | 🔄 Upcoming | - |
+| 7 | RAG and LLMs | 🔄 Upcoming | - |
+| 8 | Agentic AI | 🔄 Upcoming | - |
+
+**Overall Progress: 37.5% (3/8 weeks complete)**
